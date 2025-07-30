@@ -1,29 +1,51 @@
-# todo_app
+# TODO App
 
-This template should help get you started developing with Vue 3 in Vite.
+**Простой и удобный список задач** с возможностью добавления, редактирования и удаления задач. Этот проект создан с использованием **Vue.js** для фронтенда и использует стандартные возможности браузера для хранения данных.
 
-## Recommended IDE Setup
+## Суть проекта
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Этот проект — это минималистичный To-Do List, который позволяет пользователям:
 
-## Customize configuration
+- Добавлять новые задачи
+- Удалять завершенные задачи
+- Отмечать задачи как выполненные
+- Убирать завершенные задачи из списка
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Он разработан с целью создания интуитивно понятного интерфейса и демонстрации работы с **Vue.js** и **CSS**.
 
-## Project Setup
+## Установка и запуск
 
-```sh
+### 1. Клонируйте репозиторий:
+git clone https://github.com/metalXshark/todo_app.git
+### 2. Перейдите в папку с проектом:
+bash
+Копировать
+Редактировать
+cd todo_app
+### 3. Установите все зависимости:
+bash
+Копировать
+Редактировать
 npm install
-```
+### 4. Запустите локальный сервер:
+bash
+Копировать
+Редактировать
+npm run serve
+### 5. Откройте приложение в браузере:
+Перейдите по адресу http://localhost:8080, чтобы увидеть приложение в действии!
 
-### Compile and Hot-Reload for Development
+## Технологии
+Vue.js — основной фреймворк для создания интерфейса.
 
-```sh
-npm run dev
-```
+CSS — для стилизации приложения.
 
-### Compile and Minify for Production
+LocalStorage — для хранения задач на клиенте.
 
-```sh
-npm run build
-```
+## Скриншоты
+![Фото 1](https://github.com/metalXshark/todo_app/blob/master/photo/photo_2025-07-30_13-37-21.jpg)
+![Фото 2](https://github.com/metalXshark/todo_app/blob/master/photo/photo_2025-07-30_13-37-22.jpg)
+![Фото 3](https://github.com/metalXshark/todo_app/blob/master/photo/photo_2025-07-30_13-37-23.jpg)
+![Фото 4](https://github.com/metalXshark/todo_app/blob/master/photo/photo_2025-07-30_13-37-23%20(2).jpg)
+
+Автор: metalXshark
